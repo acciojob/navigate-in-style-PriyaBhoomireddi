@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+.nav-bar {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+}
+
+.nav-bar li {
+    margin-right: 1rem;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar li a:hover {
+    text-decoration: underline;
+}
